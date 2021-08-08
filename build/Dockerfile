@@ -58,6 +58,7 @@ RUN apt-get update && apt-get install -y \
     #apache2-mpm-prefork \
 	apache2-bin \
     php \
+    php-xml \
 	nano
 
 RUN a2dismod mpm_event
@@ -69,7 +70,7 @@ RUN mkdir /var/svn-backup
 RUN mkdir -p /var/local/svn
 RUN mkdir /etc/apache2/dav_svn
 
-#ecrasé plus loin
+#ecrasÃ© plus loin
 #ADD files/dav_svn.conf /etc/apache2/mods-available/dav_svn.conf
 
 ADD files/svn-backuper.sh /usr/local/bin/
