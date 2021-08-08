@@ -1,6 +1,13 @@
 # docker-ubuntu-svn-ssl-iF.SvnAdmin
 a docker container, base on latest ubuntu docker (20.04), with subversion (svn-server) 1.13, with https support (no certificat management) and interface for management iF.SvnAdmin 
 
+
+
+download and extract in ./build/iF.SvnAdmin/     https://svnadmin.insanefactory.com/
+
+http://sourceforge.net/projects/ifsvnadmin/files/svnadmin-1.6.2.zip/download
+
+
 I use docker container with jwilder/nginx-proxy with the jrcs/letsencrypt-nginx-proxy-companion/ to manage letsencrypt certificat.
 https://registry.hub.docker.com/r/jwilder/nginx-proxy/
 https://registry.hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/
