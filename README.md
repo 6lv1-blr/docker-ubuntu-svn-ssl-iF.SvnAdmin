@@ -14,6 +14,9 @@ https://registry.hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/
 
 inspire from https://github.com/MarvAmBass/docker-subversion but limited to svn 1.9 so I decided to restart from 0 to be able to make update
 
+for configuration exemple, follow the screen capture from this webpage
+https://kb.synology.com/en-my/DSM/tutorial/How_to_launch_an_SVN_server_based_on_Docker_on_your_Synology_NAS
 
+https://kb.synology.com/_images/autogen/How_to_launch_an_SVN_server_based_on_Docker_on_your_Synology_NAS/3.png
 
 
