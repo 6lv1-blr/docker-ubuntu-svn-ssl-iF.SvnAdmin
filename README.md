@@ -20,3 +20,10 @@ https://kb.synology.com/en-my/DSM/tutorial/How_to_launch_an_SVN_server_based_on_
 https://kb.synology.com/_images/autogen/How_to_launch_an_SVN_server_based_on_Docker_on_your_Synology_NAS/3.png
 
 
+
+
+#Install tips
+//Copy everything in one folder
+cd build
+//svn-server will be the name of the image from wich you can launch several containers if needed
+docker build -t svn-server .
